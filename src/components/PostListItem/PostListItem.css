@@ -1,0 +1,72 @@
+.app-list-item{
+      font-size: 1.25rem;
+      font-weight: 500;
+      letter-spacing: 0.8px;
+      color: rgba(13, 14, 13, 0.816);
+}
+.app-list-item button {
+      width: 35px;
+      height: 35px;
+      margin: 3px;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+      background-color: transparent;
+}
+.app-list-item button:focus{
+      box-shadow: none;
+      outline: none;
+}
+.app-list-item .btn-star{
+      /* background: #c0beb4d3; */
+      color: rgba(0, 0, 0, 0.616);
+      opacity: 1;
+}
+
+.app-list-item .btn-trash{
+      color: red;
+}
+.app-list-item .fa-heart{
+      width: 35px;
+      height: 33px;
+      margin-left: 2px;
+      text-align: center;
+      line-height: 35px;
+      font-size: 21px;
+      color: red;
+      transition: 0.3s all;
+      user-select: none;
+      font-weight: bold;
+      transform: translateX(30px);
+      opacity: 1;
+}
+.list-group-item{
+      background: transparent;
+      margin-top: 5px;
+    padding: 12px ;
+      border: 2px solid #aaa;
+}
+.app-list-item-label{
+      display: block;
+      line-height: 35px;
+      cursor: pointer;
+      user-select: none;
+      transition: 0.5s all;
+}
+.app-list-item-like .fa-heart{
+      opacity: 1;
+      transform: translateX(0px);
+}
+.app-list-item.important .app-list-item-label{
+      color: #bda30e;
+      font-weight: bold;
+}
+.app-list-item.important .btn-star{
+      color: #bda30e;
+      opacity: 1;
+}
+.app-list-item .btn-star:hover{
+      border: 1px solid rgba(0, 0, 0, 0.09);
+      border-radius: 10px;
+      background: rgba(149, 134, 134, 0.408);
+}

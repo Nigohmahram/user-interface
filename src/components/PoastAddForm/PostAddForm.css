@@ -1,0 +1,20 @@
+.bottom-panel{
+
+      margin-top: 20px;
+      position: fixed;
+      width: 800px;
+      bottom: 85px;
+}
+.bottom-panel .new-post-label{
+      width: auto;
+      flex-grow: 1;
+      margin-right: 3px;
+}
+.btn {
+padding: 10px 20px;
+color: rgba(0, 0, 0, 0.803);
+font-weight: bold;
+border: 2px solid rgba(0, 0, 0, 0.759);
+font-size: 18px;
+letter-spacing: 2px;
+}
