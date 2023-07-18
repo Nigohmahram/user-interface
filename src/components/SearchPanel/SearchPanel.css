@@ -1,5 +1,10 @@
 .search-panel{
+      z-index: 999;
+      position: fixed;
+      width: 805px;
+      margin-bottom: 50px;
       margin: 0.9rem 0;
+      top: 140px;
 }
 .search-input .search-input{
       width: auto;

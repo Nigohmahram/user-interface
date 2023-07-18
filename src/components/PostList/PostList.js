@@ -3,9 +3,10 @@ import './PostList.css'
 
 const PostList = ({props}) => {
       const elements = props.map((item) => {
+            const {id, ...itemProps}= item
             return(
-                  <li className='list-group-item'>
-                  <PostListItem {...item}/>
+                  <li key={item.id} className='list-group-item'>
+                  <PostListItem {...itemProps}/>
                   </li>
             )
       })
